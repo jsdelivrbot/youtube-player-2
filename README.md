@@ -1,25 +1,19 @@
-# ReduxSimpleStarter
+# Youtube App
+This app uses YouTube's API to search for, display and play videos.
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+![alt text](images/youtube-app-ex.png "App's interface")
 
-### Getting Started
-
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
+### Installation
 
 ```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
+> git clone https://github.com/LawynnJana/youtube-player.git
+> cd youtube-player
 > npm install
+```
+### Running
+```
 > npm start
 ```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
+Open a browser and enter localhost:8080 in the address bar.
+Enter a string in the search bar to display relevant videos.
+Click on a video to play.
